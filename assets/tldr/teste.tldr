@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 804.9999389648438,
-			"y": 211.2018051147461,
-			"lastActivityTimestamp": 1748550321137,
+			"x": 429.4226657988221,
+			"y": 635.0253482377112,
+			"lastActivityTimestamp": 1748994477618,
 			"meta": {}
 		},
 		{
@@ -84,9 +84,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 48.3333740234375,
-			"y": 127.63932037353516,
-			"z": 1,
+			"x": -77.37830739288799,
+			"y": 200.0640704901807,
+			"z": 0.5255019590079066,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -134,12 +134,54 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:QpilyXLXQ6-aBtiqinlmA",
+			"x": 193.04512639091124,
+			"y": 549.9168836006492,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:dNcrz7LlbsqcBYCqxffdn",
+			"type": "note",
+			"props": {
+				"color": "black",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "projetos e botao - proxima aula"
+								}
+							]
+						}
+					]
+				},
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"labelColor": "black",
+				"growY": 0,
+				"fontSizeAdjustment": 22,
+				"url": "",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a64jF",
+			"typeName": "shape"
+		},
+		{
+			"editingShapeId": "shape:dNcrz7LlbsqcBYCqxffdn",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:QpilyXLXQ6-aBtiqinlmA"
+				"shape:dNcrz7LlbsqcBYCqxffdn"
 			],
-			"hoveredShapeId": "shape:QpilyXLXQ6-aBtiqinlmA",
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -147,6 +189,48 @@
 			"id": "instance_page_state:page:page",
 			"pageId": "page:page",
 			"typeName": "instance_page_state"
+		},
+		{
+			"x": 199.1666259765625,
+			"y": 335.3255157470703,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:vGFZwR89f2hZndaJo3-4Q",
+			"type": "note",
+			"props": {
+				"color": "black",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "cores mais puxadas pra futura foto"
+								}
+							]
+						}
+					]
+				},
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"labelColor": "black",
+				"growY": 0,
+				"fontSizeAdjustment": 22,
+				"url": "",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a50uh",
+			"typeName": "shape"
 		},
 		{
 			"x": 829.1666259765625,
@@ -263,7 +347,7 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1325,
+				"w": 763.3333129882812,
 				"h": 745.8333129882812
 			},
 			"insets": [

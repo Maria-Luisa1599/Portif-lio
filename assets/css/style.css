@@ -10,7 +10,7 @@ body{
     color: white;
     font-family: arial;
     font-size: 18px;
-    background-color:rgb(47, 47, 47);
+    background-color:#111827;
 }
 
 nav{
@@ -20,51 +20,111 @@ nav{
     position: fixed;
     height: 9vh;
     width: 100vw;
-    background-color:rgb(35, 35, 35);
+    background-color:#1F2937;
 }
 .nav__conteiner-spans{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 65%;
+    justify-content: right;
+    width: 70%;
     text-decoration: none;
     /* background-color: red; */
 }
 .nav__conteiner-spans a{
     text-decoration: none;
     color: white;
+    margin-left: 50px;
+}
+.nav__span--name{
+    font-size: 34px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #9f00ff, #ff007b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Poppins', sans-serif;
 }
 .nav__span{
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 600;
-    text-transform: uppercase;
 }
 
 header{
     display: flex;
+    flex-direction: column;
     align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+}
+.header__content{
+    display: flex; 
     justify-content: center;
-    height: 50vh;
+    align-items: center;
+}
+.header__content--div{
     /* background-color: red; */
+    /* background-color: red; */
+    width: 44%;
+    /* padding-left: 0%; */
+    padding-top: 10%;
 }
 .header__image{
-    width: 10%;
-    background-color:rgb(22, 39, 86);
+    width: 450px;
+    height: 450px;
+    background-color: rgb(22, 39, 86);
     border-radius: 100%;
     margin-right: 30px;
+    margin-top: 200px;
+}
+.header__span--introduction{
+    display:flex;
+    flex-wrap: wrap;
+    /* white-space: break-spaces; */
+    width: 100%;
+    font-size: 110px;
+    margin-bottom: 1%;
+    font-weight: 600; 
+    /* background-color: blue; */
+}
+.header__span--introduction > span{
+    background: linear-gradient(90deg, #9f00ff, #ff007b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Poppins', sans-serif;
 }
 .header__span{
+    display:flex;
     font-size: 40px;
-    font-weight: 600; 
+    margin-bottom: 3%;
 }
 .header__p{
-    width: 600px;
-    font-size: 20px;    
+    width: 90%;
+    font-size: 22px;
+}
+.header__buttons{
+    display: flex;
+    width: 100%;
+    /* height: 100px; */
+    font-size: 26px;
+    /* background-color: blue; */
 }
 
 main{
     height: 83vh;
-    background-color: yellow;
+    padding-top: 100px;
+    background-color:rgb(241, 241, 241);
+}
+
+
+.main__section--projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+.section__span{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 footer{
