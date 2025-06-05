@@ -146,17 +146,17 @@ header{
 
 main{
     height: 180vh;
-    padding-top: 100px;
-    background-color:#1F2937;
 }
-.main__section--projects{
+.main__sections{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color:#1F2937;
+    padding-top: 100px;
     /* background-color: blue; */
 }
-.main__section--projects .main__section--projects-span:first-of-type{
+.main__section--span:first-of-type{
     background: linear-gradient(90deg, #9f00ff, #ff007b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -164,7 +164,7 @@ main{
     font-weight: 700;
     margin-bottom: 20px;
 }
-.main__section--projects .main__section--projects-span{
+.main__section--span{
     width: 750px;
     color: #949CA7;
     text-align: center;
@@ -178,7 +178,7 @@ main{
     align-items: center;
     width: 100%;
     height: 100%;
-    margin-top: 80px;
+    margin: 80px 0 100px 0;
 }
 .main__div--project{
     display: flex;
@@ -234,6 +234,7 @@ main{
     align-items: center;
     /* width: 100%; */
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 .main__div--project-github img:first-of-type{
     width: 25px;
@@ -248,8 +249,26 @@ main{
     color: #B79DDB;
     margin-right: 20px;
 }
+.main__sections--skills{
+    background-color:#111827;
+    height: 25vh;
+}
+.skills__div--images{
+    display: flex;
+}
+.skills__div--img{
+    background-color: #1F2937;
+    border-radius: 100px;
+    width: 80px;
+    height: 80px;
+    margin: 50px 30px 0 0;
+}
+.skills__div--images img{
+    padding: 20px;
+    width: 80px;
+}
 
-footer{
+/* footer{
     height: 23vh;
     background-color: purple;
-}
+} */
