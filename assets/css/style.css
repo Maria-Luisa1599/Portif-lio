@@ -251,7 +251,8 @@ main{
 }
 .main__sections--skills{
     background-color:#111827;
-    height: 25vh;
+    height: 45vh;
+    padding: 0;
 }
 .skills__div--images{
     display: flex;
@@ -268,6 +269,18 @@ main{
     width: 80px;
 }
 
+.main__section--soft-skills{
+    width: 900px;
+}
+.main__soft-skills-img{
+    display: flex;
+    align-items: left;
+    width: 100%;
+    padding: 20px;
+}
+.main__soft-skills-img img{
+    width: 90px;
+}
 /* footer{
     height: 23vh;
     background-color: purple;
