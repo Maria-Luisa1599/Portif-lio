@@ -28,7 +28,7 @@
 			"com.tldraw.shape.highlight": 1,
 			"com.tldraw.shape.embed": 4,
 			"com.tldraw.shape.image": 5,
-			"com.tldraw.shape.video": 3,
+			"com.tldraw.shape.video": 4,
 			"com.tldraw.binding.arrow": 1
 		}
 	},
@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 429.4226657988221,
-			"y": 635.0253482377112,
-			"lastActivityTimestamp": 1748994477618,
+			"x": 311.52880528684784,
+			"y": 601.1067943908373,
+			"lastActivityTimestamp": 1750112655277,
 			"meta": {}
 		},
 		{
@@ -84,9 +84,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -77.37830739288799,
-			"y": 200.0640704901807,
-			"z": 0.5255019590079066,
+			"x": -176.15061940691388,
+			"y": -185.13473055148464,
+			"z": 0.8987169042983081,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -134,8 +134,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 193.04512639091124,
-			"y": 549.9168836006492,
+			"x": 199.1666259765625,
+			"y": 335.3255157470703,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -176,12 +176,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:dNcrz7LlbsqcBYCqxffdn",
+			"editingShapeId": "shape:LEs0ifhJNSMICoH17CM5l",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:dNcrz7LlbsqcBYCqxffdn"
+				"shape:LEs0ifhJNSMICoH17CM5l"
 			],
-			"hoveredShapeId": null,
+			"hoveredShapeId": "shape:LEs0ifhJNSMICoH17CM5l",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -191,8 +191,8 @@
 			"typeName": "instance_page_state"
 		},
 		{
-			"x": 199.1666259765625,
-			"y": 335.3255157470703,
+			"x": 409.1666259765625,
+			"y": 545.3255157470703,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -317,6 +317,84 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 199.1666259765625,
+			"y": 545.3255157470703,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:LEs0ifhJNSMICoH17CM5l",
+			"type": "note",
+			"props": {
+				"color": "black",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "FALTA:"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "fotos"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "textos"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "menu da aula"
+								}
+							]
+						}
+					]
+				},
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"labelColor": "black",
+				"growY": 0,
+				"fontSizeAdjustment": 22,
+				"url": "",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a73Ib",
+			"typeName": "shape"
+		},
+		{
 			"meta": {},
 			"id": "page:page",
 			"name": "Page 1",
@@ -347,7 +425,7 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 763.3333129882812,
+				"w": 830,
 				"h": 745.8333129882812
 			},
 			"insets": [
