@@ -251,8 +251,13 @@ main{
 }
 .main__sections--skills{
     background-color:#111827;
+<<<<<<< HEAD
     /* height: 45vh; */
     padding: 100px 0;
+=======
+    height: 45vh;
+    padding: 0;
+>>>>>>> e50fca384eebda95a1870a3b593f4ca58da8c091
 }
 .skills__div--images{
     display: flex;
@@ -269,6 +274,7 @@ main{
     width: 80px;
 }
 
+<<<<<<< HEAD
 .main_div--soft-skills{
     display: flex; 
     flex-direction: column;
@@ -383,3 +389,21 @@ footer{
 .footer__div--img-contact img{
     width: 60px;
 }
+=======
+.main__section--soft-skills{
+    width: 900px;
+}
+.main__soft-skills-img{
+    display: flex;
+    align-items: left;
+    width: 100%;
+    padding: 20px;
+}
+.main__soft-skills-img img{
+    width: 90px;
+}
+/* footer{
+    height: 23vh;
+    background-color: purple;
+} */
+>>>>>>> e50fca384eebda95a1870a3b593f4ca58da8c091
