@@ -3,8 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   border: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;  
 }
+
+:root{
+  --global-gradient: linear-gradient(90deg, #6356fbff, #8668deff);
+}
+
 body {
     color: white;
     font-family: arial;
@@ -43,9 +48,9 @@ body {
   .nav__span--name {
     font-size: 34px;
     font-weight: 600;
-    background: linear-gradient(90deg, #9f00ff, #ff007b);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: var(--global-gradient); 
+     -webkit-background-clip: text; 
+     -webkit-text-fill-color: transparent;
     font-family: "Poppins", sans-serif;
   }
   .nav__span {
@@ -84,9 +89,9 @@ body {
     font-weight: 600;
   }
   .header__span--introduction > span {
-    background: linear-gradient(90deg, #9f00ff, #ff007b);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: var(--global-gradient); 
+     -webkit-background-clip: text; 
+     -webkit-text-fill-color: transparent;
     font-family: "Poppins", sans-serif;
   }
   .header__span {
@@ -106,7 +111,7 @@ body {
     font-size: 26px;
   }
   .header__buttons .header__buttons--button:first-of-type {
-    background: linear-gradient(90deg, #9f00ff, #ff007b);
+    background: var(--global-gradient);
     border: none;
     margin-right: 20px;
   }
@@ -128,7 +133,7 @@ body {
     color: white;
   }
   .header__buttons .colored a {
-    color: #b79ddb;
+    color: #ffffffff;
   }
   #projects,
   #skills {
@@ -147,9 +152,9 @@ body {
     padding-top: 100px;
   }
   .main__section--span:first-of-type {
-    background: linear-gradient(90deg, #9f00ff, #ff007b);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: var(--global-gradient); 
+     -webkit-background-clip: text; 
+     -webkit-text-fill-color: transparent;
     font-size: 46px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -222,14 +227,14 @@ body {
 
   .main__div--project-languages {
     display: flex;
-    color: #b79ddb;
+    color: #ffffffff;
   }
   .main__div--project-languages div {
     padding: 8px 16px;
     border-radius: 24px;
     font-size: 16px;
     margin-right: 10px;
-    background-color: #581c87;
+    background-color: #6356fbff;
   }
   .main__div--project-github {
     display: flex;
@@ -247,7 +252,7 @@ body {
   .main__div--project-github a {
     display: flex;
     align-items: center;
-    color: #b79ddb;
+    color: #ffffffff;
     margin-right: 20px;
   }
   .main__sections--skills {
@@ -345,7 +350,7 @@ body {
     align-items: center;
     width: 60px;
     height: 60px;
-    background-color: #581c87;
+    background-color: #34325c;
     margin: 0;
     margin: 0 10px 10px;
   }
@@ -1007,7 +1012,7 @@ body {
   .nav__span--name {
     font-size: 34px;
     font-weight: 600;
-    background: linear-gradient(90deg, #9f00ff, #ff007b);
+    background: var(--global-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: "Poppins", sans-serif;
@@ -1048,7 +1053,7 @@ body {
     font-weight: 600;
   }
   .header__span--introduction > span {
-    background: linear-gradient(90deg, #9f00ff, #ff007b);
+    background: var(--global-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: "Poppins", sans-serif;
@@ -1070,7 +1075,7 @@ body {
     font-size: 26px;
   }
   .header__buttons .header__buttons--button:first-of-type {
-    background: linear-gradient(90deg, #9f00ff, #ff007b);
+    background: var(--global-gradient);
     border: none;
     margin-right: 20px;
   }
@@ -1092,7 +1097,7 @@ body {
     color: white;
   }
   .header__buttons .colored a {
-    color: #b79ddb;
+    color: #ffffffff;
   }
   #projects,
   #skills {
@@ -1111,7 +1116,7 @@ body {
     padding-top: 100px;
   }
   .main__section--span:first-of-type {
-    background: linear-gradient(90deg, #9f00ff, #ff007b);
+    background: var(--global-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 46px;
@@ -1186,14 +1191,14 @@ body {
 
   .main__div--project-languages {
     display: flex;
-    color: #b79ddb;
+    color: #ffffffff;
   }
   .main__div--project-languages div {
     padding: 8px 16px;
     border-radius: 24px;
     font-size: 16px;
     margin-right: 10px;
-    background-color: #581c87;
+    background-color: #34325c;
   }
   .main__div--project-github {
     display: flex;
@@ -1211,7 +1216,7 @@ body {
   .main__div--project-github a {
     display: flex;
     align-items: center;
-    color: #b79ddb;
+    color: #ffffffff;
     margin-right: 20px;
   }
   .main__sections--skills {
@@ -1309,7 +1314,7 @@ body {
     align-items: center;
     width: 60px;
     height: 60px;
-    background-color: #581c87;
+    background-color: #34325c;
     margin: 0;
     margin: 0 10px 10px;
   }
